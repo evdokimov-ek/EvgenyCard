@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01042D3026FE46D9002D6A1A /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01042D2F26FE46D9002D6A1A /* Pacifico-Regular.ttf */; };
 		01A4D28426FD08F800BC6D7E /* EvgenyCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4D28326FD08F800BC6D7E /* EvgenyCardApp.swift */; };
 		01A4D28626FD08F800BC6D7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4D28526FD08F800BC6D7E /* ContentView.swift */; };
 		01A4D28826FD08FB00BC6D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A4D28726FD08FB00BC6D7E /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01042D2F26FE46D9002D6A1A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0196A80826FE4D3D0054378B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		01A4D28026FD08F800BC6D7E /* EvgenyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvgenyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A4D28326FD08F800BC6D7E /* EvgenyCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvgenyCardApp.swift; sourceTree = "<group>"; };
 		01A4D28526FD08F800BC6D7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01042D2E26FE4699002D6A1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				01042D2F26FE46D9002D6A1A /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		01A4D27726FD08F800BC6D7E = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +62,8 @@
 		01A4D28226FD08F800BC6D7E /* EvgenyCard */ = {
 			isa = PBXGroup;
 			children = (
+				0196A80826FE4D3D0054378B /* Info.plist */,
+				01042D2E26FE4699002D6A1A /* Fonts */,
 				01A4D28326FD08F800BC6D7E /* EvgenyCardApp.swift */,
 				01A4D28526FD08F800BC6D7E /* ContentView.swift */,
 				01A4D28726FD08FB00BC6D7E /* Assets.xcassets */,
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01042D3026FE46D9002D6A1A /* Pacifico-Regular.ttf in Resources */,
 				01A4D28B26FD08FB00BC6D7E /* Preview Assets.xcassets in Resources */,
 				01A4D28826FD08FB00BC6D7E /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +286,7 @@
 				DEVELOPMENT_TEAM = WU5AB3VDD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EvgenyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +317,7 @@
 				DEVELOPMENT_TEAM = WU5AB3VDD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EvgenyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
